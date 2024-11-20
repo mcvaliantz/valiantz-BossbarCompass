@@ -77,8 +77,8 @@ public class Compass implements Listener {
     
     public static Map<String, Location> getMarkers(Player player) {
         Map<String, Location> playerMarkers = new HashMap<>(markers.getOrDefault(player, new HashMap<>()));
-        if (player.getRespawnLocation() != null) {
-        	playerMarkers.put("🛌", player.getRespawnLocation());
+        if (player.getBedSpawnLocation() != null) {
+        	playerMarkers.put("🛌", player.getBedSpawnLocation());
         }
 		return playerMarkers;
 	}

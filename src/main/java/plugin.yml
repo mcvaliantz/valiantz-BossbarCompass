@@ -1,8 +1,8 @@
 name: BossbarCompass
 main: me.compass.Brain
 version: 0.0.1
-api-version: 1.16
-author: mrbear25
+api-version: 1.20
+author: VisherRyz
 description: See the edges of the world
 commands:
     compass:
